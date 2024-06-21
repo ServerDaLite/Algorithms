@@ -1,3 +1,7 @@
+# Dylan Hartman
+# 06 / 21 / 2024
+# BubbleSort.py
+
 from random import randint
 
 def getRandomList(size: int, minimum: int = 1, maximum: int = 100):
@@ -22,3 +26,5 @@ if __name__ == "__main__":
 
 	sorted_list: list = bubbleSort(numbered_list)
 	print(f"Sorted List: {sorted_list}")
+
+# EOF
